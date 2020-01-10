@@ -35,6 +35,26 @@ Otimização do Modelo
 Acurácia: taxa de acerto do modelo > 90%
 Deploy em produção: Gerar um produto ou serviço atraves deste modelo
 
+ESPAÇO DE HIPÓTESE
+O espaço de hipóteses contem os recursos com os quais podemos trabalhar. O algoritmo de aprendizagem recebe os dados e navega pelo espaço de hipoteses a fim de encontra a melhor hipótese que gera o resultado desejado que o modelo 
+
+ALGORITMO DE MACHINE LEARNING
+
+APRENDIZAGEM SUPERVISIONADA:
+Classificação: KNN, Trees, Regression Logistic, Naive-Bayes
+Regressão:linear ou polynomial, Decision Trees, Random Forests
+
+APRENDIZAGEM NÃO SUPERVISIONADA:
+Clustering e Segmentação, Redução: SVD, PCA, K-Means
+Association Analysis: Apriori, FP-Growth, Hidden Markov MOdel 
+
+
+APRENDIZAGEM POR REFORÇO:
+Sistemas de Recomendação, Sistemas de Recompensa, Prodesso de Decisão
+
+
+
+
 
 
 
