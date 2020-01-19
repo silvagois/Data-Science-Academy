@@ -1,0 +1,28 @@
+#**********************************************************************************************
+#                   Projeto Machine Leaning com Linguagem R
+#                             DAta Science Academy
+#
+#**********************************************************************************************
+#Definição do problema: Prevêr qual cliente irá pagar ou não suas contas em R Inadiplência
+# Modelo de Classificação
+
+# Definindo a Pasta de Trabalho
+getwd()
+setwd("C:\Users\marco\Documents\Repositorio-Git\Data-Science-Academy\Power-BI-Data-Science\cap-10-PowerBi-LinguagemR\ProjetoInadiplenciaR")
+
+################### Donwloand dos pacotes utilizados #############################
+install.packages("Amelia")
+install.packages("caret")
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("reshape")
+install.packages("randomForest")
+
+
+######################## CArregando os pacotes ############################
+library(Amelia)
+library(caret)
+library(ggplot2)
+library(reshape)
+library(randomForest)
+
