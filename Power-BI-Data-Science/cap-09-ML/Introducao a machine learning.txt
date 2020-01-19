@@ -1,0 +1,72 @@
+Tipos de apendizagem
+
+Aprendizagem Supervisionada: 
+É quando entregamos ao algoritimo um conjunto de dados de entrada e de saida, assim o algoritimo tenta encontrar uma correlação matemática destes dados.
+E o termo usado sempre que o programa é treinado sobre um conjunto de dados pre definido
+Uso de dados historicos
+
+Classificação: Tem como algo variáveis qualitativas ou categóricas, exemplo validar uma imagem e classifica-la como homem ou mulher
+
+Regressão: quanto vai custar determinado produto ou valor de uma ação
+
+Aprendizagem Não Supervisionado:
+Entrego somente os dados de entrada e não entrego os de saida, esperando que o algoritmo descubras quais serão as saidas baseado nos padroes destes dados. Exemplo segmentação de clientes, tenho os dados dos clientes e assim o algoritimo irá agrupar por segmentação os dados 
+
+
+Aprendizagem Semi Supervisionada
+Aprendizagem por Reforço, mais para games
+
+Deep Learning:
+Voltado para AI, um tipo de aprendizado de máquina, redes neurais, Deep Neuro Networks 
+
+
+TREINAMENTO, VALIDAÇÃO E TESTE
+
+O que é um modelo preditivo?
+Nada mais é do que matemática, uma função matemática, algoritimo KNN.
+
+ETAPAS DO MODELO PREDITIVO
+Coleta de Dados, 
+Exploração e Preparação(Analise Exploratória dos Dados:limpeza dos dados, eliminação dos dados desnecessários, recodificação dos dados, Transformação, Organização, Tratamento de dados faltantes etc...), 
+Treinamento do Modelo, 
+Avaliação do Modelo, 
+Otimização do Modelo
+
+Acurácia: taxa de acerto do modelo > 90%
+Deploy em produção: Gerar um produto ou serviço atraves deste modelo
+
+ESPAÇO DE HIPÓTESE
+O espaço de hipóteses contem os recursos com os quais podemos trabalhar. O algoritmo de aprendizagem recebe os dados e navega pelo espaço de hipoteses a fim de encontra a melhor hipótese que gera o resultado desejado que o modelo 
+
+ALGORITMO DE MACHINE LEARNING
+
+APRENDIZAGEM SUPERVISIONADA:
+Classificação: KNN, Trees, Regression Logistic, Naive-Bayes
+Regressão:linear ou polynomial, Decision Trees, Random Forests
+
+APRENDIZAGEM NÃO SUPERVISIONADA:
+Clustering e Segmentação, Redução: SVD, PCA, K-Means
+Association Analysis: Apriori, FP-Growth, Hidden Markov MOdel 
+
+
+APRENDIZAGEM POR REFORÇO:
+Sistemas de Recomendação, Sistemas de Recompensa, Prodesso de Decisão
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
