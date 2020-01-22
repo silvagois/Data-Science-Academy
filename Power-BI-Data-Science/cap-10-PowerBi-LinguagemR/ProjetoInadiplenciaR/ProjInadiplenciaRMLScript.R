@@ -17,7 +17,7 @@ install.packages("randomForest")
 
 # CArregando pacotes
 library(Amelia)
-library(caret)
+library(caret) #Pacote usado para machine learning 
 library(ggplot2)
 library(dplyr)
 library(reshape)
@@ -29,7 +29,7 @@ dataset <- read.csv("credit-card.csv")
 print(dataset)
 
 #Visualizando dados de sua estrutura
-View(dataset)
+View(dataset$EDUCATION)
 str(dataset)
 head(dataset)
 
@@ -52,7 +52,7 @@ head(dataset$SEX)
 
 # Escolaridade
 head(dataset$EDUCATION)
-dataset$EDUCATION <- cut(dataset$EDUCATION, c("Desconhecido","Casado","Solteiro","Outros"), labels=c("Pos Graduado","Graduado","Ensino Medio","Outros"))
+dataset$EDUCATION <- cut(dataset$EDUCATION, c(0,1,2,3,4), labels=c("Pos Graduado","Graduado","Ensino Medio","Outros"))
 head(dataset$EDUCATION)
 
 # Estado Civil
@@ -96,10 +96,52 @@ qplot(inadiplente, data = dataset, geom = "bar")+theme(axis.text.x = element_tex
 set.seed(12345)
 
 # Amostragem estratificada. Selecione as linhas de acordo com a variable defalt.payment.next.month como strata
-# Dividindo o conjunto de dados em treino e teste
 
+# Dividindo o conjunto de dados em treino e teste
 TrainingDataIndex <-createDataPartition(dataset$inadiplente, p = 0.45, list = FALSE)
 TrainingDataIndex
+
+#Criando uma variável para inserir os dados de treino
+#Conjunto de dados de treino trainData
+trainData <- dataset[TrainingDataIndex,]
+table(trainData$inadiplente)
+
+#Mostrando a porcentagem do dado de treino
+prop.table(table(trainData$inadiplente))
+
+#Numero de linhas no dataset
+nrow(trainData)
+
+# Comparando os dados de treino com o dados do dataset original
+DistributionCompare <- cbind(prop.table(table(trainData$inadiplente)),prop.table(table(dataset$inadiplente)))
+colnames(DistributionCompare) <-c("Treinamento","Original")
+DistributionCompare
+
+#Melt Data -  Converte colunas em linhas
+meltedDcomp <- melt(DistributionCompare)
+meltedDcomp
+
+# Plot para ver a diferença dos dados de treino vs dados original
+ggplot(meltedDcomp, aes(x = X1, y = value)) + geom_bar( aes(fill = X2), stat = "identity", position = "dodge") + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+# agora data set de teste 
+#tudo que não esta no de treino ira para o de teste
+testData <- dataset[-TrainingDataIndex,]
+testData
+View(testData)
+
+# Validação dos dados de teste cross validation
+# Validar o modelo 
+trainingParameters <- trainControl(method = "cv", number = 10)
+
+####################################################################################
+################## RandomForest Classification MOdel ##########################
+
+#Construindo o modelo
+rf_model <- randomForest(inadiplente ~ ., data = trainData)
+
+
+
 
 
 
