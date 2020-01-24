@@ -1,0 +1,89 @@
+Definição de estatística:
+A estatistica fornece técnicas e metodos de analise de dados que auxiliam o processo de tomada de decisão nos mais variados problemas onde exitste incerteza.
+
+Tres grandes áreas da Estatistica:
+Probabilidade:
+Estudo a aleatoriedade e da incerteza
+
+Estatistica Descritiva:
+Utiliza metodos para coleta, organização, apresentação, analise e síntese de dados obitidos em uma população ou amostra
+
+Estatistica Inferencial:
+E o processo de estimar informações sobre uma população a partir dos resultados observadoes em uma "Amostra"
+
+Big Data Analytics
+
+Estatística Descritiva:
+População:
+São todos os elementos distintos, indivíduso, itens ou objetos, cujas as caracte´risticas estejam sendo estudadas
+
+Amostra:
+É uma parte da População, ela é coletada a partida população, uso para caso de testes onde esta amostra representa a população, para poder ser validada.
+Metodo Estatistico
+a Amostragem usa a coleta, organização, apresentação e analise dos dados como meio de estudar os parametros de uma população.
+
+Censo:
+e a técnica que seleciona e avalia todos os elementos da população quando se realiza uma pesquisa
+
+Tipos de Amostragem Probabilistica e não Probabilistica
+
+Probabilistica: Não tem ação do ser humado(dados aleatoricamente) 
+
+Não probalistica é subjetiva pois tem ação do homem (pesquisador)
+
+Parametro: E uma caracteristica da população, Valores calculados usando dados da população são chamados de parametros
+
+Estatisticas: Ja os valores calculados usando dados da amostra são chamados de estatisticas 
+
+
+Dados Primarios x Dados Secundários:
+
+"Dados não fazem sentido, se não forem colocados em um contexto"
+
+Dados primarios: são dados confiáveis
+
+Dados secundarios: não são dados confiáveis feito por terceiros
+
+Observações x Variáveis:
+
+Observação: são as linhas do data set
+Variáveis: São as colunas , atributos
+
+Tipos de Variáveis:
+
+Qualitativas: Variaveis classificadoras, utilizam termos descritivos para descrever algo de interesse, ex: cor dos olhos, estado civil, religião , sexo, grau de escolaridade, tipo sanguineo, cor da pele etc...
+
+Nominais: profissão, sexo, religião
+Ordinais: Escolaridade, Classe Social, Fila
+
+Quantitativas: Representam valores numericos que podem ser contados ou medidos, ex: numero de crianças em uma sala, peso do corpo humano , idade etc...
+
+Discrestas: Numero de filhos, numero de carros , numero de acessos
+Contínuas: altura, peso , salario
+
+Medidas de Posição da Amostra:
+
+Média: Soma tudo e divide pela quantidade de dados 
+Mediana: A mediana divide os elementos da amostra ao meio
+Moda: E o valor que mais sobrassai no conjunto de dados 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
