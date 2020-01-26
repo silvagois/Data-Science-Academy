@@ -67,18 +67,27 @@ Média: Soma tudo e divide pela quantidade de dados
 Mediana: A mediana divide os elementos da amostra ao meio
 Moda: E o valor que mais sobrassai no conjunto de dados 
 
+#### Medidas de Dispersão #####
 
+Medidas de Dispersão: elas descrevem a amplitude dos dados, ou seja, quão espalhados os dados estão dentro de um conjunto.
 
+Variância: Mede a amplitude (variabilidade) dos dados em relação a média
 
+Desvio Padrão: Assim como o nome sugere, o desvio padrão é um padrão de desvio (distância) da média.
 
+#### Coeficiente de Variação #####
 
+Coeficiente de variação: mede o desvio padrão em termos de percentual na média. Um CV alto, indica alta variabilidade dos dados, ou seja menos consistência dos dados. Um CV menor indica mais consistência dentro do conjunto de dados.
 
+Formula do CV:
 
+CV = (Desvio padrão / Media) * 100
 
+#### Medidas de Posição Relativa #####
 
+Os dados podem ser medidos em termos de posição relativa, que compara a posição de um valor, em relação a outro valor dentro do conjunto de dados
 
-
-
+Percentil e Quartil são as medidas mais comuns de posição relativa
 
 
 

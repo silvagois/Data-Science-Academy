@@ -15,7 +15,7 @@ summary(dados$salario)
 freq <- table(dados$grau_instrucao) 
 freq
 
-# Tabela de Frequências Relativas
+# Tabela de Frequências Relativas em percentual
 freq_rel <- prop.table(freq) 
 freq_rel
 

@@ -36,8 +36,8 @@ mean(amostras$AmostraA)
 mean(amostras$AmostraB)
 sd(amostras$AmostraA)
 sd(amostras$AmostraB)
-cvA <- sd(amostras$AmostraA) / mean(amostras$AmostraA) * 100
-cvB <- sd(amostras$AmostraB) / mean(amostras$AmostraA) * 100
+cvA <- sd(amostras$AmostraA) / mean(amostras$AmostraA) * 100 #Formula do CV
+cvB <- sd(amostras$AmostraB) / mean(amostras$AmostraA) * 100 #Formula do CV
 cvA
 cvB
 

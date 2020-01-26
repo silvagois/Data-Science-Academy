@@ -15,14 +15,14 @@ summary(vendas$Valor)
 summary(vendas$Custo)
 
 # Média
-?mean
+?mean # Help da função
 mean(vendas$Valor)
 mean(vendas$Custo)
 mean(vendas$Valor, trim = 0.1)
-mean(vendas$Valor, na.rm = TRUE)
+mean(vendas$Valor, na.rm = TRUE) # Remove valores null missing
 
 # Média Ponderada
-?weighted.mean
+?weighted.mean # help da função 
 weighted.mean(vendas$Valor, w = vendas$Custo)
 
 # Mediana
