@@ -89,9 +89,14 @@ Os dados podem ser medidos em termos de posição relativa, que compara a posição 
 
 Percentil e Quartil são as medidas mais comuns de posição relativa
 
+Percentil: É o resultado em percentual de um conjunto de dados, o valor real basedo em um grupo de dados ou pessoas como exemplo
+ Ex: um determinado aluno querendo saber sua posição relativa dentro de sua turma, ele quer saber se aquela nota ele ficou em qual grupo
 
 
+#### Métodos Estatisticos para Analise de Dados #####
+Metodos graficos e metodos numericos
 
+Tabela de Frequência: 
 
 
 
