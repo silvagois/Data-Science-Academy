@@ -37,4 +37,12 @@ Prob Empirica, necessita de uma valor ex: 100 pessoas entram numa loja mas 15 ap
 
 15/100 = 0,15
 
+# Operações com eventos rever 
+
+# Teoremas da Probabilidade 
+
+
+
+
+
 
