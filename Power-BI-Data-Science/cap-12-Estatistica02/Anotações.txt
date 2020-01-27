@@ -1,0 +1,40 @@
+####### Introdução a Teoria da Probabilidade #######
+
+Frequencia e medidas calculadas a partir dos dados, são estimativas de quantidade desconhecidas associadas a populações de amostras
+
+Probabilidade: E o estudo da aleatoriedade e incerteza, é a quantificação do conhecimento que temos sobre um particular evento.
+
+Também podendo ser um valor numerico que indica a chance, ou prababilidade, de um evento especifico ocorrer. Este valor numerico vai estar entre 0 e 1 
+
+# Experimento, Espaço da Amostra e Evento
+
+Experimento: é o processo de medir ou observar uma atividade com o proposito de coletar dados ex: jogar um dado
+
+Espaço da Amostra: São todos os possíveis resultados de um experimento ex: Experimento jogar um dado, espaço sera 1,2,3,4,5,6 resposta
+
+Evento: Subconjunto de um experimento
+
+Experimento Deterministicos: Ex: soltar uma caneta, a mesma sempre vai cair no chão ou seja algo que sempre irá acontecer , o resultado final é o mesmo
+
+Experimento Aleátorios: é a distancia da caneta com a parece, sempre vai ter um valor diferente não tem como saber o resultado
+
+
+# Tipos de Probabilidade
+
+Probabilidade Clássica: Quando varios resultados tem a mesma probabilidade de ocorrer , tendo a ser resultados igualmente possíveis, ex: jogar uma moeda tem chance iguais de 50% de ser cara ou coroa
+
+Probabilidade Frequencialista (Empiríca): Nâo pode ser calculada pela probabilidade classica, pois o resultado é diferente, resultados não são igualmente possíveis
+
+Probabilidade Subjetiva: e quando nem a classica e nem a empirica não podem  ser usadas, ai vai da experiencia de alguem, exemplo um diretor de empresa 
+
+Prob Classica formula:
+P(A)= S/N 
+
+prob = numero de possibilidades divido pelso possíveis resultados 
+
+
+Prob Empirica, necessita de uma valor ex: 100 pessoas entram numa loja mas 15 apenas compra um produto ficaria 
+
+15/100 = 0,15
+
+
