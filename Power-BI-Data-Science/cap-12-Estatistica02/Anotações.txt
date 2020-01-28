@@ -1,4 +1,4 @@
-####### Introdução a Teoria da Probabilidade #######
+﻿####### Introdução a Teoria da Probabilidade #######
 
 Frequencia e medidas calculadas a partir dos dados, são estimativas de quantidade desconhecidas associadas a populações de amostras
 
@@ -37,9 +37,14 @@ Prob Empirica, necessita de uma valor ex: 100 pessoas entram numa loja mas 15 ap
 
 15/100 = 0,15
 
-# Operações com eventos rever 
+# Operações com eventos ( rever )
 
 # Teoremas da Probabilidade 
+
+################### TEOREMA DE BAYES(bêis)############################
+
+
+
 
 
 
