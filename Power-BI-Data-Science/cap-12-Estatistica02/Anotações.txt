@@ -42,6 +42,11 @@ Prob Empirica, necessita de uma valor ex: 100 pessoas entram numa loja mas 15 ap
 # Teoremas da Probabilidade 
 
 ################### TEOREMA DE BAYES(bêis)############################
+ Estudar mais sobre o teorema de bayes
+
+# Variáveis Aleatorias discretas e continuas:
+
+Variável aleatória é uma variavel cujo valor é determinado pelo resultado de um experimento aleatorio.
 
 
 
