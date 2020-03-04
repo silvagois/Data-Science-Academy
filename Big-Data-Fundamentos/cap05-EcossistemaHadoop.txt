@@ -1,0 +1,20 @@
+Ecossistema Hadoop
+HDFS = Armazenamento Distribuido
+ 
+MapReduce = Processamento Distribuido
+
+Hbase = Banco de dados não relacional bilhoes de registros
+
+Sqoop = Trazer dados do Oracle
+
+Apache Pig = linguagem de analise de dados alto nível 
+
+ZooKeeper = Gerenciar Apache Pig
+
+Apache Oozie = Agendamento de WorkFlow execultar varios job em paralelo e gerenciá-lo
+
+Apache Flume = Trazer dados de diferences fontes em tempo Real Streaming, envia dados diretamente para o HDFS
+
+Apache Mahout = É dedicado ao Machine Learning, com foco em clustering, classificação e sistemas de recomendação 
+
+Apache Kafka = Não armazena os dados, serve para analizar dados em tempo real exemplo preço de cotação diária de bolsa de valores, twitter etc...
